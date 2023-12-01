@@ -12,10 +12,11 @@ Before using this script, ensure the following prerequisites are met:
 - Python 3.x installed
 - Required Python libraries installed (`requests`, `yaml`,`os`,`json`,`logging`)
 - Dynatrace Synthetic Monitor Enabled
-- Dynatrace Api-Token:
-  One of the following scopes is required:
-    syntheticExecutions.write
-    ExternalSyntheticIntegration
+- Dynatrace Api-Token, one of the following scopes is required:
+
+        ExternalSyntheticIntegration
+        syntheticExecutions.write
+
 
 ## Configuration
 Ensure the configuration file is present in the same directory as the script.
